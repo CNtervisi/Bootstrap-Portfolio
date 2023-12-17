@@ -1,0 +1,130 @@
+/* Global text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Font family for headers */
+  font-family: "Open Sans", sans-serif;
+}
+p {
+  /* font family for paragraphs */
+  font-family: "Jura", sans-serif;
+}
+/* Navigation Bar for Mobile Devices */
+.navbar-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+/* Navigation Bar for Desktops */
+.menubar-desktop {
+  background: #040404;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  padding: 10px 20px;
+}
+/* Styling for menu items in the desktop menu bar */
+.menubar-desktop li {
+  background: #040404;
+  border: none;
+  padding-bottom: 10px;
+  text-align: center;
+}
+/* Styling the links in the menu items */
+.menubar-desktop li a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+.profile_image {
+  padding: 20px;
+  text-align: center;
+}
+.profile_image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 8px solid #59e6ee;
+}
+/* Styles for the main content section */
+.main-content {
+  padding-left: 20%;
+  background: darkcyan;
+  margin-bottom: 0;
+}
+section {
+  padding: 0 10%;
+  padding-top: 10%;
+  color: white;
+  height: 100vh;
+}
+section h4,
+h1,
+h6 {
+  /* Convert the text to uppercase */
+  text-transform: uppercase;
+}
+section h4 {
+  font-size: 45px;
+  color: white;
+  padding-bottom: 10px;
+}
+section h5 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+#about h1 {
+  font-size: 72px;
+  color: white;
+  padding-bottom: 10px;
+}
+/* Work Section */
+#work {
+  background-color: darkcyan;
+}
+/* Styles for images in the work section */
+#work img {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  object-fit: fill;
+}
+/* Contact Section */
+.icons {
+  color: white;
+  font-size: 38px;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+.section-break {
+  margin: 5px;
+  height: 500px;
+}
+/* Media query for less than 992px */
+/* If screen is > 992px, navbar goes to the left */
+/* If screen is < 992px, navbar is on top*/
+@media screen and (max-width: 992px) {
+  .navbar-mobile {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .menubar-desktop {
+    display: none;
+  }
+  .main-content {
+    padding-left: 0;
+    height: auto;
+  }
+  section {
+    height: 100%;
+  }
+}
