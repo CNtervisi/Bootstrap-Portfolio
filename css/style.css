@@ -63,7 +63,6 @@ section {
   padding: 0 10%;
   padding-top: 10%;
   color: white;
-  height: 100vh;
 }
 section h4,
 h1,
@@ -85,6 +84,9 @@ section h5 {
   color: white;
   padding-bottom: 10px;
 }
+#about a {
+  color: white;
+}
 /* Work Section */
 #work {
   background-color: darkcyan;
@@ -92,21 +94,26 @@ section h5 {
 /* Styles for images in the work section */
 #work img {
   width: 100%;
-  height: auto;
-  margin: 10px;
+  height: 200px;
   object-fit: fill;
+}
+.card {
+  margin-bottom: 20px;
 }
 /* Contact Section */
 .icons {
   color: white;
   font-size: 38px;
-  padding-top: 10px;
-  margin-right: 20px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  background-color: transparent;
+  line-height: 30px;
 }
-.section-break {
-  margin: 5px;
-  height: 500px;
+.icons:hover {
+  text-shadow: 3px 6px 17px rgba(255,255,255,1);
 }
+
 /* Media query for less than 992px */
 /* If screen is > 992px, navbar goes to the left */
 /* If screen is < 992px, navbar is on top*/
@@ -123,8 +130,5 @@ section h5 {
   .main-content {
     padding-left: 0;
     height: auto;
-  }
-  section {
-    height: 100%;
   }
 }
