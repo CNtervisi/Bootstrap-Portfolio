@@ -19,7 +19,6 @@ You can visit the website by clicking on this [LINK](https://cntervisi.github.io
 Here are some GIF's of the website for desktop and mobile viewports:
 
 ![alt"desktopsize-gif"](../Bootstrap-Portfolio/images/desktop-gif.gif)
-
 ![alt"mobile-gif"](./images/mobile-gif.gif)
 
 ## Credits/Acknowledgments
