@@ -111,9 +111,8 @@ section h5 {
   line-height: 30px;
 }
 .icons:hover {
-  text-shadow: 3px 6px 17px rgba(255,255,255,1);
+  box-shadow: 3px 6px 17px rgba(255, 255, 255, 1);
 }
-
 /* Media query for less than 992px */
 /* If screen is > 992px, navbar goes to the left */
 /* If screen is < 992px, navbar is on top*/
